@@ -60,12 +60,13 @@ body {
 /* Entire form */
 form {
 
+  /*Logo*/
   img {
     width: 50cqi;
     margin: 10cqi auto;
   }
 
-  /* Your Journey...*/
+  /*Your Journey...*/
   p:nth-child(1) {
     font-size: 8cqi;
     font-weight: 700;
@@ -73,13 +74,33 @@ form {
     margin-bottom: 7cqi;
   }
 
-  /* Secure your spot...*/
+  /*Secure your spot...*/
   p:nth-child(2) {
     font-size: 6cqi;
     font-weight: 700;
     text-align: center;
     color: var(--Neutral-500);
     margin-bottom: 12cqi;
+  }
+
+  label {
+    width: 92cqi;
+    display: block;
+    font-size: 5cqi;
+    margin: 0 auto;
+  }
+
+  /*All inputs*/
+  label input {
+    display: block;
+    width: 100%;
+    line-height: 13cqi;
+    background-color: rgba(99, 95, 97, 0.25);
+  }
+
+  /*Avatar upload input*/
+  label:nth-child(3) input {
+    
   }
 }
 
