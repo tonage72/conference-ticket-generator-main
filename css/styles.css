@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+*,
+*::before,
+*::after {
+	  box-sizing: border-box;
+	  padding: 0;
+	  margin: 0;
+}
+
+:root {
+  --Primary-500: hsl(7, 88%, 67%);
+  --Primary-700: hsl(7, 71%, 60%);
+  --Neutral-0: hsl(0, 0%, 100%);
+  --Neutral-300: hsl(252, 6%, 83%);
+  --Neutral-500: hsl(245, 15%, 58%);
+  --Neutral-700: hsl(245, 19%, 35%);
+  --Neutral-900: hsl(248, 70%, 10%);
+  --Orange-500: hsl(7, 88%, 67%);
+  --Orange-700: hsl(7, 71%, 60%);
+  --Gradient: linear-gradient(90deg, hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+}
+
+html {
+	font-family: 'Inconsolata', monospace;
+	font-weight: 400;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
