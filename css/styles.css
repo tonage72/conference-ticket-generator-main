@@ -96,11 +96,15 @@ form {
     width: 100%;
     line-height: 13cqi;
     background-color: rgba(99, 95, 97, 0.25);
+    border-radius: 3cqi;
+    border: 1px solid var(--Neutral-500);
   }
 
   /*Avatar upload input*/
   label:nth-child(3) input {
-    
+    border: 2px dashed var(--Neutral-500);
+    line-height: 30cqi;
+    text-align: center;
   }
 }
 
